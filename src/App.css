@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.timerstopdiv{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+
+}
+.timerstopdiv>div{
+  font-size: 25px;
+
+}
+.timerstopdiv>div:hover{
+  cursor: pointer;
+}
+.main{
+  width: 30%;
+}

@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    
+    justify-content: space-around;
+    
+    align-items: center;
+    border: 1px solid gray;
+}
+.carrier{
+    width: 30%;
+}
+.none{
+    display: none;
+}
+.under{
+    border-bottom: 2px solid red;
+}
+.flex>p{
+    padding: 10px;
+}
+.flex>p:hover{
+    cursor: pointer;
+}
+.timer{
+    display: block;
+}
+.stopwatch{
+    display: block;
+}
